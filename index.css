@@ -1,0 +1,122 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f4f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.profile-card {
+    background: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 350px;
+}
+
+.profile-header {
+    background-color: #2e7d7e;
+    padding: 30px;
+    text-align: center;
+    color: white;
+}
+
+.profile-img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.profile-header h2 {
+    margin: 0;
+    font-size: 22px;
+}
+
+.profile-header p {
+    font-size: 16px;
+    margin: 5px 0 20px;
+}
+
+.contact-options {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 10px;
+}
+
+.contact-options button {
+    background: transparent;
+    border: none;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.profile-details {
+    padding: 20px;
+}
+
+.profile-details ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.profile-details li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
+.profile-details span {
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+.profile-details a {
+    color: #2e7d7e;
+    text-decoration: none;
+}
+
+.map-link {
+    color: #d9534f;
+    margin-left: 5px;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #e0e0e0;
+    margin: 0 20px;
+}
+
+.profile-actions {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background: #f9f9f9;
+}
+
+.profile-actions .download-btn, .profile-actions .share-btn {
+    background: #2e7d7e;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.profile-actions .share-btn {
+    background: #ffffff;
+    color: #2e7d7e;
+    border: 1px solid #2e7d7e;
+}
+
+.profile-actions .download-btn:hover,
+.profile-actions .share-btn:hover {
+    opacity: 0.9;
+}
